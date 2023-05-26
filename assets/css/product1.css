@@ -7,13 +7,13 @@
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background: rgba(9, 27, 64, 0.8);
+    background: rgba(255, 255, 255, 0.8);
 }
   
-  #header.header-scrolled {
-    background: rgb(6, 23, 56);  
-    height: 60px;
-  }
+#header.header-scrolled {
+  background: rgb(246, 246, 247);  
+  height: 60px;
+}
   
   #header .logo h1 {
     font-size: 28px;
@@ -404,7 +404,7 @@ a:hover {
 }
 .container-fluid {
     position: relative;
-    top: 70px;
+    top: 79px;
     height: 100%;
     display: grid;
     align-items: center;
@@ -825,3 +825,6 @@ blockquote .footer{
 .form-control{
   height: 130px;
 }
+
+
+

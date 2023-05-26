@@ -11,7 +11,7 @@
   
   .product {
     float: left;
-    width: 23%;
+    width: 18%;
     border-radius: 2%;
     margin: 1%;
   }
@@ -29,7 +29,7 @@
   }
   
   .images {
-    height: 15em;
+    height: 11em;
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
@@ -48,21 +48,7 @@
   }
   
   /* IMAGES */
-  #image-1 {background-image: url("https://sc01.alicdn.com/kf/UT8.CaXX2NXXXagOFbXC/fresh-navel-oranges.jpg");}
-  
-  #image-2 {background-image: url("https://newenglandapples.files.wordpress.com/2014/10/img_5595.jpg")}
-  
-  #image-3 {background-image: url("https://sc01.alicdn.com/kf/UT8ovSIXQNaXXagOFbXt/Fresh-Passion-Fruit-with-Best-Price-and.jpg")}
-  
-  #image-4 {background-image: url("http://www.foodmatters.com/media/images/articles/16-powerful-reasons-to-eat-pineapple.jpg")}
-  
-  #image-5 {background-image: url("http://membrillo.com.au/wp-content/uploads/2016/11/bg-mango-01.jpg")}
-  
-  #image-6 {background-image: url("http://ell.h-cdn.co/assets/16/27/980x490/landscape-1467750721-gettyimages-146896572.jpg")}
-  
-  #image-7 {background-image: url("https://sc01.alicdn.com/kf/UT8ovSIXQNaXXagOFbXt/Fresh-Passion-Fruit-with-Best-Price-and.jpg")}
-  
-  #image-8 {background-image: url("http://www.foodmatters.com/media/images/articles/16-powerful-reasons-to-eat-pineapple.jpg")}
+   
   
   .text-box {
     width: 100%;
@@ -183,7 +169,7 @@
   }
   
   .cart-images {
-    height: 7em;
+   max-width: 100px;
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
@@ -294,11 +280,11 @@
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background: rgba(9, 27, 64, 0.8);
-}
+    box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+  }
   
   #header.header-scrolled {
-    background: rgb(6, 23, 56);  
+    background: rgb(246, 246, 247);  
     height: 60px;
   }
   
@@ -312,7 +298,7 @@
   
   #header .logo h1 a,
   #header .logo h1 a:hover {
-    color: #fff;
+    color: #070707;
     text-decoration: none;
   }
   
@@ -352,7 +338,7 @@
     padding: 10px 0 10px 30px;
     font-size: 16px;
     font-weight: 400;
-    color: rgb(255 255 255 / 72%);
+    color: rgb(17, 16, 16);
   
     white-space: nowrap;
     transition: 0.3s;
@@ -369,7 +355,7 @@
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #131313;
   }
   
   .navbar .dropdown ul {
@@ -383,8 +369,7 @@
     opacity: 0;
     visibility: hidden;
     background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    transition: 0.3s;
+     transition: 0.3s;
     border-radius: 4px;
   }
   
@@ -513,8 +498,7 @@
     opacity: 1;
     visibility: visible;
     background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  }
+   }
   
   .navbar-mobile .dropdown ul li {
     min-width: 200px;
@@ -573,8 +557,7 @@
     width: 127%;
     border-radius: 5px;
     position: relative;
-    box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
-    border-radius: 23px;
+     border-radius: 23px;
     left: -8vw;
  
  }
@@ -587,11 +570,12 @@
    outline: none;
    border: none;
    border-radius: 74px;
+   
  
    border-radius: 5px;
    padding: 0 60px 0 20px;
    font-size: 15px;
-   box-shadow: 0px 1px 5px rgba(186, 182, 182, 0.1);
+   box-shadow: 0px 3px 7px rgba(25, 24, 24, 0.1);
  }
  
  .search-input.active input{
@@ -677,3 +661,13 @@
     text-decoration: none;
   }
  
+
+
+  @media (max-width: 768px) {
+    .product {
+      float: left;
+      width: 48%;
+      border-radius: 2%;
+      margin: 1%;
+    }
+  }
